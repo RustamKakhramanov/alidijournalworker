@@ -2,6 +2,7 @@
     "name": "fayrest/journalworker",
     "description": "alidi journal api worker with news",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Fayrest\\Journalworker\\": "src/"

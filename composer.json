@@ -1,7 +1,7 @@
 {
     "name": "fayrest/journalworker",
     "description": "alidi journal api worker with news",
-    "type": "composer-plugin",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Fayrest\\Journalworker\\": "src/"
@@ -12,5 +12,7 @@
             "name": "Rustam Kakhramanov"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.5"
+    }
 }

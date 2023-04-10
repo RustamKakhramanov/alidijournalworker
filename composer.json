@@ -1,0 +1,16 @@
+{
+    "name": "fayrest/journalworker",
+    "description": "alidi journal api worker with news",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Fayrest\\Journalworker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rustam Kakhramanov"
+        }
+    ],
+    "require": {}
+}

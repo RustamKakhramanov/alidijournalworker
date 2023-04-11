@@ -2,11 +2,15 @@
 
 namespace Fayrest\Journalworker;
 
+use Fayrest\Journalworker\Client;
+use Fayrest\Journalworker\Adapter;
+use Fayrest\Journalworker\FileService;
+
 class Service
 {
 
-    private Client $client;
-    private FileService $fileService;
+    private  $client;
+    private  $fileService;
 
     private $config = [
         'api_url' => 'https://alidi.ru/api/articles',
